@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/afsf', function () {
     return view('welcome');
 });
+ 
+Route::get('/',"UrlController@index");
