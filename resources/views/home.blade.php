@@ -23,15 +23,17 @@
 
 
 
-            <form>
+        <form method="post" action="{{route('urlstore')}}">
+            @csrf
+
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Enter Url</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Url">
+                    <label for="Url">Enter Url</label>
+                    <input type="text"    name="url" class="form-control" id="Url" aria-describedby="emailHelp" placeholder="Enter Url">
 
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">custom Url</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="custom Url">
+                    <label for="custom Url">custom Url</label>
+                    <input type="text" name="shorten"  class="form-control" id="custom Url" placeholder="custom Url">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
