@@ -14,10 +14,10 @@
 
 <div class="container bg-dark container-fluid h-50">
 
-    <div class="row mt-5 mt-5" >
+    <div class="row mt-5" >
 
 
-        <div class="col col-12 text-light mt-5">
+        <div class="col col-12 text-light ">
 
 
 
