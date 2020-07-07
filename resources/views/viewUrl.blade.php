@@ -1,0 +1,1 @@
+<a href="{{$mainUrl->url}}">go tu url </a>

@@ -12,9 +12,21 @@ class UrlController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($url)
     {
-        return  view("home");
+
+        $mainUrl= url::where('shorten',$url)->first();
+        
+if(is_null($mainUrl)){
+    $notFound="not ";
+    return view('home',compact('notFound'));
+}
+else{
+
+
+            return view('viewUrl',compact('mainUrl'));
+}
+        
     }
 
     /**
@@ -35,7 +47,12 @@ class UrlController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       $url = new url;
+       $url->url= $request->url;
+       $url->shorten= $request->shorten;
+       $url->save();
+       return view('success',compact('url'));
+       
     }
 
     /**
