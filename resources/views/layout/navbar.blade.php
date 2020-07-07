@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{route(">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">image </a>
@@ -25,8 +25,9 @@
             </li>
 
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-                
+        <form class="form-inline my-2 my-sm-0 ">
+        <button type="button" class="btn btn-primary m-2">log In</button> 
+        <button type="button" class="btn btn-success">sign Up</button>
         </form>
     </div>
 </nav>
