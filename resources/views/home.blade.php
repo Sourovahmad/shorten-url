@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group">
                     <label for="custom Url">custom Url</label>
-                    <input type="text" name="shorten"  class="form-control" id="custom Url" placeholder="custom Url">
+                    <input type="text" name="shorten "  class="form-control" id="custom Url" placeholder="custom Url">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
