@@ -1,11 +1,9 @@
-body {
-    background-image: url("/image/bg.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
 
-.container{
-  margin-top:160px;
-  }
+
+
+
+ #Url{
+   height: 60px;
+   border-radius: 5px;
+   border-radius: 8px 8px 8px 8px;
+  } 
