@@ -11,48 +11,45 @@
 
 @endif
 
+<div class="container-fluid bg-dark h-25 " style="margin-top: 200px;">
 
 
-<div class=" container-fluid " style="margin-top:200px;">
-
-    <div class="row  bg-dark m-5 ">
+    <div class="row p-5">
 
 
-        <div class="col col-12 text-light  mt-5 h-100">
+        <div class="col col-10 center ">
 
 
-
-
-            <form method="post" action="{{route('urlstore')}}">
-                @csrf
-
-                <div class="form-group">
-                    <label for="Url">Enter Your URL</label>
-                    <input type="text" name="url" class="form-control" id="Url" aria-describedby="emailHelp" placeholder="Enter Url">
-
-                </div>
-
-
-
-
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-            </form>
-
+            <div class="form-group">
+                <input type="form" class="form-control" id="form" placeholder="Enter Url">
+            </div>
 
 
 
         </div>
 
 
-    </div>
 
+
+        <div class="col col-2">
+
+        <button type="button" class="btn btn-success btn-lg">shorten</button>
+
+
+        </div>
+    </div>
 
 
 </div>
 
 
 
-<div class="container">
+
+
+
+
+
+<div class="container p-5">
 
     <div class="row jumbotron">
 
@@ -148,7 +145,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
       -->
-           <h4 class="text-dark padding"> Designed by</h4> <a href="#">Sourov Ahmad (Abasas)</a>
+            <h4 class="text-dark padding"> Designed by</h4> <a href="#">Sourov Ahmad (Abasas)</a>
         </div>
     </div>
 </footer>

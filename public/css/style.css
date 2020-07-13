@@ -211,3 +211,8 @@
   font-size: 13px;
   color: #ddd;
 }
+
+#form{
+  height:65px;
+  border-radius: 5px;
+}
