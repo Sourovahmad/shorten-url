@@ -33,7 +33,7 @@
 
         <div class="col col-2">
 
-        <button type="button" class="btn btn-success btn-lg">shorten</button>
+        <button type="button" id="button2" class="btn btn-success btn-lg " >shorten</button>
 
 
         </div>
@@ -75,47 +75,48 @@
 
 </div>
 
-        
+                   
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services pb-5">
       <div class="container">
 
         <div class="section-title text-center p-5">
           <h2 class="">Services</h2>
-          <h3>We do offer awesome <span>Services</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <h3>We Also do offer awesome <span>Services</span></h3>
+          <p>Not only Url Short service,We also provide lots of service like <span> Web Design and devlopment,</span>.</p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4 class="title"><a href="">Website Design & Development</a></h4>
+              <p class="description">We develop websites aiming for better user experience. Platform independence and mobile responsiveness are the key features of our product. </p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><i class="icofont-earth"></i></div>
+              <h4 class="title"><a href="">Mobile & Desktop Application Development</a></h4>
+              <p class="description">Our team has a strong foundation in mobile app development. We work closely with you to create apps that meet and exceed your business needs across a variety of platforms.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4 class="title"><a href="">Digital Marketing</a></h4>
+              <p class="description">Abasas IT will enhance your business by using digital marketing. We belief in grow together. We are using SMS, Email, Social Media Marketing Technology</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4 class="title"><a href="">Web Security </a></h4>
+              <p class="description">Keeping your data safe and secure is crucial. If you need extraordinary security for your website with SSL certificates, real-time monitoring - we have it all.</p>
             </div>
           </div>
 
@@ -202,7 +203,7 @@
 </footer>
 
 
-
+ 
 
 
 @endsection

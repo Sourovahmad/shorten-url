@@ -214,7 +214,7 @@
 
 #form{
   height:65px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 /* service section */
@@ -311,4 +311,21 @@
 .section-title p {
 	margin: 15px auto 0 auto;
 	font-weight: 600;
+}
+
+
+#button2{
+       width:155px;
+       height: 55px;
+       border-radius: 10px;
+
+}
+.services .icon-box:hover .icon i {
+	color: #fff;
+}
+.services .icon i {
+	font-size: 48px;
+	line-height: 1;
+	color: #e43c5c;
+	transition: all 0.3s ease-in-out;
 }
