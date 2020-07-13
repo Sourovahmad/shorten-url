@@ -148,7 +148,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
       -->
-            Designed by <a href="https://bootstrapmade.com/">Sourov Ahmad (Abasas)</a>
+           <h4 class="text-dark padding"> Designed by</h4> <a href="#">Sourov Ahmad (Abasas)</a>
         </div>
     </div>
 </footer>
