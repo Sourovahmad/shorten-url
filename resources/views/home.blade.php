@@ -11,7 +11,7 @@
 
 @endif
 
-<div class="container-fluid bg-dark h-25 " style="margin-top: 200px;">
+<div class="container-fluid bg-dark " style="margin-top: 200px;">
 
 
     <div class="row p-5">
@@ -19,11 +19,16 @@
 
         <div class="col col-9 center ">
 
+             <form method="post" action="{{route('urlstore')}}">
 
+             @csrf
             <div class="form-group">
-                <input type="form" class="form-control" id="form" placeholder="Enter Url">
+                <input type="form"  name="url" class="form-control"  id="form" placeholder="Enter Url">
             </div>
 
+            <div class="form-group">
+                <input type="form"  name="shorten" class="form-control"  id="form2" placeholder="shorted  Url">
+            </div>
 
 
         </div>
@@ -33,12 +38,12 @@
 
         <div class="col col-2">
 
-        <button type="button" id="button2" class="btn btn-success btn-lg " >shorten</button>
+        <button type="submit"  id="button2" class="btn btn-success ">Submit</button>
 
-
+        </form>
         </div>
     </div>
-
+   
 
 </div>
 
