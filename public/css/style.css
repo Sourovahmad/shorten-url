@@ -1,9 +1,53 @@
+*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 26px 0;
+  background: rgba(0, 0, 0, 0.9);
+}
 
+#header.header-transparent {
+  background: transparent;
+}
 
+#header.header-scrolled {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 18px 0;
+}
 
+#header .logo {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding-left: 10px;
+  border-left: 4px solid #18d26e;
+}
 
- #Url{
-   height: 60px;
-   border-radius: 5px;
-   border-radius: 8px 8px 8px 8px;
-  } 
+#header .logo a {
+  color: #fff;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+#nav2{
+
+  margin-left:400px;
+}
+.collapse ul li a{
+  size:40px;
+
+}

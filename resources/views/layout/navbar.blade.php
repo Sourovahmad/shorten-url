@@ -7,14 +7,20 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="nav2">
         <ul class="navbar-nav mr-auto">
           
+            <li class="nav-item text-dark">
+                <a class="nav-link text-dark" href="#">Why Abasas </a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Home </a>
+                <a class="nav-link text-dark" href="#">Solutions </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">feature </a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     our services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -24,11 +30,16 @@
                     <a class="dropdown-item" href="#">more about our Services</a>
                 </div>
             </li>
-`
-        </ul>
+
+        </ul>          
+            
+
+                    
         <form class="form-inline my-2 my-sm-0 ">
         <button type="button" class="btn btn-primary m-2">log In</button> 
         <button type="button" class="btn btn-success">sign Up</button>
         </form>
     </div>
 </nav>
+
+
