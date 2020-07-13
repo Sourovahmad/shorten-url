@@ -88,7 +88,7 @@
 
         <div class="section-title text-center p-5">
           <h2 class="">Services</h2>
-          <h3>We Also do offer awesome <span>Services</span></h3>
+          <h3>We Also do Some awesome <span>Services</span></h3>
           <p>Not only Url Short service,We also provide lots of service like <span> Web Design and devlopment,</span>.</p>
         </div>
 
