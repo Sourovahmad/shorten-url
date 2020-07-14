@@ -11,13 +11,24 @@
 
 @endif
 
-<div class="container-fluid bg-dark " style="margin-top: 200px;">
+<div class="container-fluid  " style="margin-top: 20px; height:800px; padding-top:300px;  
+
+
+background: url('https://source.unsplash.com/1600x900/?nature,water');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+
+  "  >
 
 
     <div class="row p-5">
 
 
-        <div class="col col-9 center ">
+        <div class=" col-9  ">
 
              <form method="post" action="{{route('urlstore')}}">
 
@@ -25,10 +36,10 @@
             <div class="form-group">
                 <input type="form"  name="url" class="form-control"  id="form" placeholder="Enter Url">
             </div>
-
+<!-- 
             <div class="form-group">
                 <input type="form"  name="shorten" class="form-control"  id="form2" placeholder="shorted  Url">
-            </div>
+            </div> -->
 
 
         </div>
@@ -36,9 +47,9 @@
 
 
 
-        <div class="col col-2">
+        <div class=" col-3">
 
-        <button type="submit"  id="button2" class="btn btn-success ">Submit</button>
+        <button type="submit" style="width:100%" id="button2" class="btn btn-success ">Submit</button>
 
         </form>
         </div>
