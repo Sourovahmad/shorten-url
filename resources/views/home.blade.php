@@ -14,7 +14,7 @@
 <div class="container-fluid  " style="margin-top: 20px; height:800px; padding-top:300px;  
 
 
-background: url('https://source.unsplash.com/1600x900/?nature,water');
+background: url('image/bg-nature.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
