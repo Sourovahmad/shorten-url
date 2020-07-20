@@ -36,10 +36,10 @@ background: url('image/bg-nature.jpg');
             <div class="form-group">
                 <input type="form"  name="url" class="form-control"  id="form" placeholder="Enter Url">
             </div>
-<!-- 
+
             <div class="form-group">
                 <input type="form"  name="shorten" class="form-control"  id="form2" placeholder="shorted  Url">
-            </div> -->
+            </div>
 
 
         </div>

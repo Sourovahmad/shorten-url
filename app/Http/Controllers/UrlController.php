@@ -15,7 +15,7 @@ class UrlController extends Controller
     public function index($url)
     {
 
-        $mainUrl= url::where('shorten',$url)->first();
+ $mainUrl= url::where('shorten',$url)->first();
         
 if(is_null($mainUrl)){
     $notFound="not ";
@@ -24,7 +24,9 @@ if(is_null($mainUrl)){
 else{
 
 
-            return view('viewUrl',compact('mainUrl'));
+            // return view('viewUrl',compact('mainUrl'));
+            // return ('mainUrl');
+            return redirect($mainUrl->url);
 }
         
     }
