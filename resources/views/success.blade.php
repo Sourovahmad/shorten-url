@@ -28,7 +28,9 @@ background: url('image/bg-2.jpg');
 
 
         <div class="form-group">
-          <input type="form" name="url" class="form-control" id="form" value="{{$url->shorten}}">
+          
+   
+          <input type="form" name="url" class="form-control" id="form" id="myInput" value="{{$url->shorten}}">
         </div>
 
 
