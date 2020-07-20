@@ -11,7 +11,7 @@
         <ul class="navbar-nav mr-auto">
           
             <li class="nav-item text-dark">
-                <a class="nav-link text-dark " href="#">Homne </a>
+                <a class="nav-link text-dark " href="{{route('home')}}">Home </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-dark" href="#">Solutions </a>

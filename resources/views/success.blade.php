@@ -30,7 +30,7 @@ background: url('image/bg-2.jpg');
         <div class="form-group">
           
    
-          <input type="form" name="url" class="form-control" id="form" id="myInput" value="{{$url->shorten}}">
+          <input type="text" name="url" class="form-control" class="form" id="myInput"  value="{{$url->shorten}}">
         </div>
 
 
@@ -42,7 +42,8 @@ background: url('image/bg-2.jpg');
 
     <div class=" col-3">
 
-      <button type="submit" style="width:100%" id="button2" class="btn btn-success">copy</button>
+    
+      <button onclick="myFunction()" style="width:100%"   class="btn btn-success" id="button2">Copy text</button>
 
       </form>
 
@@ -205,6 +206,7 @@ background: url('image/bg-2.jpg');
   </div>
 </footer>
 
+            
 
 
 
